@@ -45,3 +45,97 @@ p {
   box-shadow: 2px 2px 2px black;
   font-weight: 900;
 }
+
+@media (max-width: 575.98px) {
+  .image-box {
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  img {
+    width: 400px;
+  }
+  .text-box {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .timer {
+    max-width: 400px;
+  }
+
+  .timer__block {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 10px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .image-box {
+    text-align: center;
+
+    margin: 0 auto;
+  }
+  img {
+    width: 500px;
+  }
+  .text-box {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .timer {
+    max-width: 400px;
+  }
+
+  .timer__block {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px black;
+    font-weight: 700;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  ...;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  ...;
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  ...;
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
